@@ -1,0 +1,133 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+} 
+
+body{
+        background-color: whitesmoke;
+}
+
+.container{
+    width: 1340px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.background-img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    background-size: cover;
+}
+.header-section{
+    z-index: 90;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    
+}
+.header-section img{
+    width: 440px;
+    height: 76px;
+    position: relative;
+    left: 30%;
+}
+.header-section h1{
+    font-size: 120px;
+    font-weight: 900; 
+    line-height: 100px;
+    text-align: center;
+    color: #ffff;
+}
+.header-section .btn{
+width: 150px;
+height: 50px;
+font-weight: 700;
+text-align: center;
+color: #48924f;
+border-radius: 35px;
+font-size: 18px;
+left: 45%;
+position: relative;
+background-color: #ffff;
+}
+
+
+.service-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: -2rem;
+}
+h2{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 96px;
+    text-align: center;
+    color: #828282;
+}
+.service-section .service-container{
+    display: flex;
+    gap: 30px;
+    margin:auto;
+    width:100%;
+    padding-left: 8rem;
+}
+.service-container .service-box{
+width: 340px;
+height: 430px;
+background-color: #ffff;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.service-box .input{
+    margin: 0 30px 0 20px;
+}
+.service-box img{
+    width: 340px;
+    height: 240px;
+}
+.service-box h6{
+    font-weight: 800;
+    font-size: 14px;
+    color: #0d4d14;
+    line-height: 24px;
+    position: relative;
+    top: -1rem;
+}
+.service-box p{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color:#0d4d14;
+    position: relative;
+    top: -2rem;
+}
+.service-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: #ffff;
+    color: #48924f;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    top: 30px;
+}
+.service-section .service-design{
+    margin-top: -5.5rem;
+    margin-left: 550px;
+}
+.service-section .service-design img{
+    width: 95px;
+}
+
+
